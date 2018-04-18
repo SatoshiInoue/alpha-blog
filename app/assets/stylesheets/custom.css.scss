@@ -1,0 +1,52 @@
+$navbar-default-bg: #088;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    float:left;
+    font-size:1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.description {
+    margin-top: 0;
+}
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.article-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding: 15px 0;
+}
+
+.footer {
+    border-top: 1px solid grey;
+}
+
+.footer small {
+    float: left;
+}
+
+.footer ul {
+    float: right;
+    list-style: none;
+}
+.footer ul li {
+    float: left;
+    margin-left: 15px;
+}
